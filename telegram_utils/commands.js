@@ -1,4 +1,4 @@
-const { search, trending, price } = require("./telegram_utils/bot_commands");
+const { search, trending, price } = require("./bot_commands");
 
 const initializeCommands = (bot) => {
   bot.command("search", search);
